@@ -1,5 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
 .App {
-  font-family: sans-serif;
-  max-width: 40em;
+  font-family: Montserrat;
+  max-width: 60em;
   margin-inline: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0.5em;
+  font-size: 3em;
+}
+
+.input-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-flow: column;
+  gap: 10px;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0.5rem;
+}
+
+.input-container label {
+  margin-left: 0.9375rem;
+}
+
+.input-container input {
+  border-radius: 30px;
+  padding: 0.375rem 0.875rem;
+}
+
+.input-container button {
+  border-radius: 30px;
+  padding: 0.375rem 0.875rem;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.spinner-border {
+  margin: 260px auto;
+  height: 60px;
+  width: 60px;
+  display: block;
 }
